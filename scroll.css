@@ -108,7 +108,7 @@ section  #index  .container div div{
 
 section  #work  .container {
 	display: inline-block;
-	overflow:scroll;
+	overflow-y: scroll;
 }
 
 section  #introduction  .container {
