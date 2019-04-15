@@ -1,0 +1,118 @@
+/*导航条*/
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	height: 100vh;
+}
+nav{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #333;
+}
+
+nav ul {
+	float: right;
+	margin-right: 150px;
+}
+nav ul li {
+	box-sizing: border-box;
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	font-size: 20px;
+	margin:0 20px;
+	transition-delay: 0.3s;
+	padding: 8px 5px;
+}
+nav ul li a:hover{
+	color: skyblue;
+	border-bottom: 2px solid skyblue;
+	text-shadow: 1px 1px 3px skyblue;
+}
+/*图片*/
+body{
+	height:100vh;
+	overflow: hidden;
+}
+section{
+	width: 100%;
+	height: 100%;
+	overflow-y:scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	
+}
+section .sections{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1px solid red;
+	scroll-snap-align:center;	
+}
+
+section #index{
+	background: url("0.jpeg") no-repeat center center/cover;
+	width: 100%;
+	height:100vh;
+}
+section #work{
+	background: url("1.jpeg") no-repeat center center/cover;
+	width: 100%;
+	height:100vh;
+	
+}
+section #introduction{
+	background: url("2.jpeg") no-repeat center center/cover;
+	width: 100%;
+	height:100vh;
+}
+section #contact{
+	background: url("3.jpeg") no-repeat center center/cover;
+	width: 100%;
+	height:100vh;
+}
+
+
+section   .container{
+	width: 600px;
+	height: 500px;
+	overflow: hidden;
+	box-sizing: border-box;
+	/* border: 3px solid rgb(173, 167, 167); */
+	text-align: left;
+
+}
+section  .container h1{
+	text-align: center;
+	margin: 10px 10px 10px;
+}
+section   .container div{
+	margin: 10px 10px 10px;
+}
+section  .container div div{
+	
+	margin: 5px 5px;
+}
+
+section  #index  .container div div{
+	display: inline-block;
+	width: 200px;
+}
+
+section  #work  .container {
+	display: inline-block;
+	overflow:scroll;
+}
+
+section  #introduction  .container {
+	font-size: 18px;
+	line-height: 40px;
+	
+}
