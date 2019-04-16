@@ -116,3 +116,10 @@ section  #introduction  .container {
 	line-height: 40px;
 	
 }
+
+section  #work  .container .history-bd {
+	display: none;
+}
+section  #work  .container .show {
+	display: block;
+}
